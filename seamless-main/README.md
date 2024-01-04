@@ -1,4 +1,4 @@
-# Seamless &ensp;:hospital: :syringe:
+# Seamless 🏥💉
 
 
 ## Overview
