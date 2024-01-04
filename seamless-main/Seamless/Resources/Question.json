@@ -1,0 +1,79 @@
+[
+    {
+        "id": 1,
+        "questionText": "Hep B Status",
+        "choice": ["Hep B antibody positive", "Hep B surface antigen and antibody negative", "Hep B surface antigen positive antibody negative"],
+        "answer": "",
+        "followUpQuestions": [
+            {
+                "Vaccine": 1
+            },
+            {
+                "Question": 2
+            },
+            {
+                "Vaccine": 2
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "questionText": "Has the patient received any previous Hep B vaccines?",
+        "choice": ["Yes", "No"],
+        "answer": "",
+        "followUpQuestions": [
+            {
+                "Question": 3
+            },
+            {
+                "Question": 4
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "questionText": "Number of Hep B vaccination series completed?",
+        "choice": ["Less than or equal to 1", "2 or more"],
+        "answer": "",
+        "followUpQuestions": [
+            {
+                "Question": 4
+            },
+            {
+                "Vaccine": 1
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "questionText": "Is the patient pre transplant?",
+        "choice": ["Yes", "No"],
+        "answer": "",
+        "followUpQuestions": [
+            {
+                "Question": 5
+            },
+            {
+                "Vaccine1": 3,
+                "Vaccine2": 4,
+                "Vaccine3": 5
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "questionText": "Transplant planned within 4-6 weeks?",
+        "choice": ["Yes", "No"],
+        "answer": "",
+        "followUpQuestions": [
+            {
+                "Vaccine1": 3,
+                "Vaccine2": 6
+            },
+            {
+                "Vaccine1": 3,
+                "Vaccine2": 4
+            }
+        ]
+    }
+]

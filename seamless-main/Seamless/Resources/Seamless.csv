@@ -1,0 +1,13 @@
+type,id,name,instruction,questionText,choice,answer,followUpQuestions
+"Vaccine","1","Next","No Vaccination needed","","","",""
+"Vaccine","2","Next","Consult Hepatology","","","",""
+"Vaccine","3","Heplisav B (Outpatient only)","20mcg/0.5ml - 2 doses at least 4 weeks apart","","","",""
+"Vaccine","4","Engerix-B","40mcg - Initial dose / 1 month after initial dose / 6 month after initial dose","","","",""
+"Vaccine","5","Recomibivax HB","40 mcg - Initial dose / 1 month after initial dose / 6 month after initial dose","","","",""
+"Vaccine","6","Accelerated Engerix-B","40 mcg - Initial dose / 1 week after initial dose / 3 weeks after initial dose","","","",""
+"Vaccine","7","Accelerated Recomibivax HB","40 mcg - Initial dose / 1 week after initial dose / 3 weeks after initial dose","","","",""
+"Question","1","","","Hep B Status","Hep B antibody positive; Hep B surface antigen and antibody negative; Hep B surface antigen positive antibody negative","","Vaccine: 1; Question: 2; Vaccine: 2"
+"Question","2","","","Has the patient received any previous Hep B vaccines?","Yes; No","","Question: 3; Question: 4"
+"Question","3","","","Number of Hep B vaccination series completed?","Less than or equal to 1; 2 or more","","Question: 4; Vaccine: 1"
+"Question","4","","","Is the patient pre transplant?","Yes; No","","Question: 5; Vaccine: 3, Vaccine: 4, Vaccine: 5"
+"Question","5","","","Transplant planned within 4-6 weeks?","Yes; No","","Vaccine: 3, Vaccine: 6; Vaccine: 3, Vaccine: 4"
